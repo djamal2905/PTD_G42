@@ -81,11 +81,11 @@ class ReponseFunction:
     def numero_1_draft(self, nb: int) -> pd.DataFrame:
         return self.reponses.premiers_choix_draft_N_derniere_saison(N_saison=nb)
 
-    def distribution_pays(self, top_N) -> (matplotlib.figure.Figure, pd.DataFrame):
+    def distribution_pays(self, top_N):
         result, fig = self.reponses.top_N_nb_joueurs_par_pays(top=top_N, graph=True)
         return fig, result
 
-    def recup_min_max_date(self, season: str) -> (str, str):
+    def recup_min_max_date(self, season: str) -> tuple[int]:
 
         # Selection du mix et du max
         game_regular_season = self.reponses.data["game"][

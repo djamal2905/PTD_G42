@@ -12,7 +12,7 @@ class HomeFunction:
         self.palettes = load_cmap("Abbott")
 
     def create_line_chart_nb_match(self,
-                                   year_range: (str, str) = None
+                                   year_range: tuple[int] = None
                                    ) -> matplotlib.figure.Figure:
         """
         Retourne un graphique de l'évolution du nombre de rencontres NBA par saison,
@@ -92,7 +92,7 @@ class HomeFunction:
         return fig
 
     def create_dunut_chart_of_position_distribution(self,
-                                                    year_range: (str, str) = None
+                                                    year_range: tuple[int] = None
                                                     ) -> matplotlib.figure.Figure:
         """
         Crée un graphique donut de la répartition des positions,
@@ -158,8 +158,8 @@ class HomeFunction:
         return nombre_univ
 
     def return_greatest_players(self,
-                                year_range: (str, str) = None
-                                ) -> (pd.DataFrame, int):
+                                year_range: tuple[int] = None
+                                ):
         """
         Retourne les meilleurs joueurs (flag Y), filtrés selon une plage d'années.
 
