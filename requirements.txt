@@ -1,0 +1,29 @@
+# Manipulation des tables
+pandas==2.2.3
+numpy==2.2.5
+
+# Datavisualisation
+matplotlib==3.10.1
+seaborn==0.13.2
+
+# Graphiques interactifs
+plotly==6.0.1
+pytest==8.3.5
+pypalettes==0.1.5
+openpyxl==3.1.5
+norm==1.6.0
+
+# Icônes pour l'interface
+faicons==0.2.2
+
+# Interface graphique
+shiny==1.4.0
+Jinja2==3.1.6
+
+# Apprentissage
+scipy==1.15.2
+scikit-learn==1.6.1
+
+
+# Connexion à Posit
+rsconnect-python==1.25.2
