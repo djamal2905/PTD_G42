@@ -11,13 +11,13 @@ Avant toute exécution, il est nécessaire d’installer les dépendances et de 
 ### 1. Cloner le dépôt (si nécessaire)
 
 ```bash
-git clone <URL_DU_DEPOT>
-cd PTD
+git clone https://github.com/djamal2905/PTD_G42.git
+cd PTD_G42
 ```
 
 ### 2. Installer les dépendances Python
 
-Assurez-vous d'être dans le dossier **racine du projet (PTD)** :
+Assurez-vous d'être dans le dossier **racine du projet (PTD_G42)** :
 
 ```bash
 python -m pip install -r requirements.txt
@@ -67,7 +67,7 @@ Si l'application l'application est lancée avec le bouton, un **preview** appara
 ### STRUCTURE DU PROJET
 
 ```rmd
-PTD/
+PTD_G42/
 ├── answers_class/
 |   └── __init__.py
 │   └── linear_regression.py
